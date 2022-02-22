@@ -57,5 +57,38 @@ if(sexo==="f"){
     }
 }*/
 
+/*
+
+FUNCIONES
+
+function sopa(){
+    console.log("Ajiaco");
+}
+
+function concatenar(nombre, apellido1, apellido2){
+    let nombrecompleto = nombre + " " + apellido1;
+    return nombrecompleto;
+    }
+
+    function sumar(papa, guasca, pollo){
+        let sopa= (papa + guasca + pollo);
+        //return sopa;
+    }
 
 
+//let resultado = sumar(12, 14, 11)
+alert(sumar(32, 12, 3));
+
+EJERCICIOS FUNCIONES*/
+
+    let preguntaUsuario= prompt("Cual es tu edad?");
+
+
+function eresMayorDeEdad(edad, limite){
+    if(edad >=limite){
+        alert("Eres mayor de edad");
+    }else{
+        alert("No eres mayor de edad");
+    }
+}
+eresMayorDeEdad(preguntaUsuario, 56);
